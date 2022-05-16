@@ -1,0 +1,38 @@
+/* Header image */
+.slide2 {
+    background: url("../slike/svjetla.jpg");
+}
+
+/* Main */
+Main {
+    width: 100%;
+    min-height: 35vh;
+    background: #F9F9F9;
+}
+Main > div p {
+    font-size: 1em; 
+}
+Main > div h1, Main > div p {
+    color: #111111;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.el {
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+    margin: 40px;
+}
+.naslov-sekcije {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}

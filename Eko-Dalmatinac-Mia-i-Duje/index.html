@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/nav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/footer.css" />
+    <style> #naslovna {color: #4D61E5 !important;} </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Eko Dalmatinac</title>
+</head>
+
+<!-- Body -->
+<body>
+    <div class = "site-wrapper">
+    <div class = "site-overlay"> </div>
+
+    <!-- Navicija -->
+    <Nav>
+        <a href="index.html">
+            <img src = "slike/logo-final.png" id = "logo-priv" alt = "Logo">
+        </a>
+        <img src = "slike/menu-icon-white.png" id = "menu-icon-white" alt = "Menu-icon">
+
+        <div class = "menu">
+            <img src = "slike/menu-icon-black.png" id = "menu-icon-black" alt = "Menu-icon">
+            <img src = "slike/logo-final.png" id = "logo-menu" alt = "Logo">
+
+            <ul id = "links">
+                <li><a id="naslovna" href="index.html">Naslovna</a></li>
+                <li><a id="problem" href="stranice/problem.html">Problem</a></li>
+                <li><a id="rjesenje" href="stranice/rjesenje.html">Rješenje</a></li>
+                <li><a id="razvrstaj" href="stranice/razvrstaj.html">Razvrstaj!</a></li>
+                <li><a id="o-timu" href="stranice/o-timu.html">O timu</a></li>
+            </ul>
+        </div>
+    </Nav>
+
+    <!-- Header -->
+    <Header>
+        <div class = "header-overlay"></div>
+        <figure>
+            <div class = "slide1"> </div>
+
+            <div class = "slide2">    
+                <div class = "slide-content">           
+                    <div class="naslov">Eko Dalmatinac</div>
+                    <div class="podnaslov">Trebamo se baviti ljudima, a ne kantama!</div>
+                </div> 
+            </div>
+
+            <div class = "slide3"> </div>
+        </figure>
+
+        <div class = "slider-nav">
+            <div id = "dot1"></div>
+            <div id = "dot2"></div>
+            <div id = "dot3"></div>
+        </div>
+    </Header>
+    
+    <!-- Main -->
+    <Main>
+        <div class="statistika">
+            <div class = "textbox">
+                <img src="slike/area.png"  class="logo-icon" id="pov" alt="icon">
+                <h1>4524</h1>
+                <p>km&sup2;</p>
+            </div>
+            <div class = "textbox">
+                <img src="slike/group.png"  class="logo-icon" alt="icon">
+                <h1>455 242</h1>
+                <p>stanovnika</p>       
+            </div>
+            <div class = "textbox">
+                <img src="slike/grad.png"  class="logo-icon" alt="icon">
+                <h1>16</h1>
+                <p>gradova</p>           
+            </div>
+            <div class = "textbox">
+                <img src="slike/općina.png"  class="logo-icon" alt="icon">
+                <h1>39</h1>
+                <p>općina</p>           
+            </div>
+            <div class = "textbox">
+                <img src="slike/naselje.png"  class="logo-icon" alt="icon">
+                <h1>368</h1>
+                <p>naselja</p>           
+            </div>
+        </div>
+        <div class="zupanija2">
+            <div id="tekst-zup" class="zup2">
+                <div id="sdz-naslov">Splitsko-dalmatinska županija</div>
+                <p>Splitsko-dalmatinska županija prostorno je najveća županija Hrvatske.</p>
+                <p>Proteže se od Vrlike na sjeveru do otoka Palagruže na jugu, od Marine na zapadu do Vrgorca na istoku.</p>
+                <p>Graniči s Republikom Bosnom i Hercegovinom na sjeveru, s Dubrovačko-neretvanskom županijom na istoku, a na jugu se prostire do granice teritorijalnog mora Republike Hrvatske.</p>
+                <p>Otočno područje Županije sastoji se od 74 otoka i 57 hridi i grebena.</p>
+            </div>
+            <div class="zup2">
+                <img id="slika-zup" class="zup2" src="slike/karta.jpg" alt="karta">
+            </div>
+        </div>
+        <div class="grb">
+            <a href="https://dalmacija.hr/" target="_blank">
+                <img id="slika-grb" src="slike/grb.png" alt="Grb SDZ">
+            </a>
+        </div>
+    </Main>
+    
+    <!-- Footer -->
+    <Footer>
+        <div class = "footer-links">
+            <ul>
+                <li id = "footer-links-title">Poveznice</li>
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="stranice/problem.html">Problem</a></li>
+                <li><a href="stranice/rjesenje.html">Rješenje</a></li>
+                <li><a href="stranice/razvrstaj.html">Razvrstaj!</a></li>
+                <li><a href="stranice/o-timu.html">O timu</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-text">
+            &copy; ICT županija - EDIT 2019. <br>
+            Tim: Mia Vrdoljak i Duje Štolfa <br>
+            Sva prava pridržana.
+        </div>
+        <a href="https://www.ictzupanija.hr/" target="_blank"><img src="slike/logo-footer.png" id="ict" alt="Logo-banner" width = "370px"></a>
+        
+        <a href="http://www.trema.hr" target="_blank"><img src="slike/logo.png" alt="Logo-banner" width = "331px"></a>
+        
+    </Footer>
+
+    </div>
+</body>
+</html>

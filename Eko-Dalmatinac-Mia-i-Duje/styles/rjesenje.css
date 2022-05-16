@@ -1,0 +1,92 @@
+/* Header image */
+
+.slide2 {
+    background: url("../slike/ljubljana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main */
+
+Main {
+    width: 100%;
+    min-height: 35vh;
+    background: #F9F9F9;
+}
+Main > div p {
+    font-size: 1em; 
+}
+Main > div h1, Main > div p {
+    color: #111111;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.el {
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+    margin: 40px;
+}
+.naslov-sekcije {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+
+/* Slo-hrv */
+.sub {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;    
+}
+.box {
+    margin: 50px 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 275px;
+    height: 275px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.45);
+    text-align: center;
+    position: relative;
+    z-index: 7;
+    background: white;
+}
+.drzava{
+    max-width: 600px;
+    font-size: 2.5em;
+}
+.opis{
+    margin: 10px;
+    max-width: 600px;
+    font-size: 1.1em;
+}
+#vs {
+    text-align: center;
+    font-size: 2.4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+/* Zupanija */
+.tekst-zup {
+    max-width: 700px;
+    font-size: 1.4em;
+}
+/* Sort */
+.slika-sort {
+    max-width: 450px;
+    max-height: 400px;
+}
+.tekst-sort{
+    max-width: 700px;
+    font-size: 1.4em;
+}

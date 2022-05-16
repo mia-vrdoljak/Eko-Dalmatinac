@@ -1,0 +1,90 @@
+Footer {
+    width: 100%;
+    min-height: 25vh;
+    background: #111111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+Footer h1, Footer li, Footer a {
+    color: #fff;
+    text-align: center;
+}
+Footer ul {
+    margin: 0 30px;
+    list-style-type: none;
+    padding: 0;
+}
+Footer li {
+    text-align: center;
+    margin: 5px 0;
+}
+#footer-links-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+Footer a {
+    text-decoration: none;
+}
+.contact-form {
+    position: relative;
+    margin: 30px;
+}
+.contact-form h1 {
+    font-size: 25px;
+}
+.contact-form input {
+    padding: 5px 10px 5px 30px;
+    font-size: 17px;
+    margin: 5px;
+    border: none;
+}
+#first_name, #last_name {
+    width: 80px;
+    float: left;
+}
+#subject, #email {
+    width: 210px;
+}
+.contact-form > img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+#contact-user-icon1 {
+    top: 70px;
+    left: 7px;
+}
+#contact-user-icon2 {
+    top: 70px;
+    left: 137px;
+}
+#subject-icon {
+    top: 110px;
+    left: 7px;
+}
+#email-icon {
+    width: 20px;
+    height: 20px;
+    top: 152.25px;
+    left: 10px;
+}
+Footer > img {
+    margin: 30px;
+}
+#ict {
+    margin:50px;
+}
+.footer-text {
+    color: #fff;
+    font-size: 0.9em;
+}
+@media screen and (max-width: 515px) {
+    Footer ul {
+        margin-top: 40px;
+    }
+    Footer img {
+        width: 300px;
+    }
+}

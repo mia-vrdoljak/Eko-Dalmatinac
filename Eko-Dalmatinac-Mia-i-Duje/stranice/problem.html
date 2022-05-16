@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/nav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/problem.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/footer.css" />
+    <style> #problem {color: #4D61E5 !important;} </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../script.js"></script>
+    <title>Eko Dalmatinac</title>
+</head>
+<!-- Body -->
+<body>
+    <div class = "site-wrapper">
+    <div class = "site-overlay"> </div>
+ 
+    <!-- Navicija -->
+    <Nav>
+        <a href="../index.html">
+            <img src = "../slike/logo-final.png" id = "logo-priv" alt = "Logo">
+        </a>
+        <img src = "../slike/menu-icon-white.png" id = "menu-icon-white" alt = "Menu-icon">
+
+        <div class = "menu">
+            <img src = "../slike/menu-icon-black.png" id = "menu-icon-black" alt = "Menu-icon">
+            <img src = "../slike/logo-final.png" id = "logo-menu" alt = "Logo">
+
+            <ul id = "links">
+                <li><a id="naslovna" href="../index.html">Naslovna</a></li>
+                <li><a id="problem" href="problem.html">Problem</a></li>
+                <li><a id="rjesenje" href="rjesenje.html">Rješenje</a></li>
+                <li><a id="razvrstaj" href="razvrstaj.html">Razvrstaj!</a></li>
+                <li><a id="o-timu" href="o-timu.html">O timu</a></li>
+            </ul>
+        </div>
+    </Nav>
+
+    <!-- Header -->
+    <Header>
+        <div class = "header-overlay"></div>
+        <figure>
+            <div class = "slide1"> </div>
+    
+            <div class = "slide2">    
+                <div class = "slide-content">           
+                    <div class="naslov">Problem</div>
+                    <div class="podnaslov">"Problems are not stop signs, they are guidelines."<br> ~ Robert H. Schuller</div>
+                </div> 
+            </div>
+    
+            <div class = "slide3"> </div>
+        </figure>
+    
+        <div class = "slider-nav">
+            <div id = "dot1"></div>
+            <div id = "dot2"></div>
+            <div id = "dot3"></div>
+        </div>
+    </Header>
+        
+    <!-- Main -->
+    <Main>
+        <div class="zagadenje">
+            <div class="container">
+                <div class="el tekst-zag" id="t1">
+                    Najveći problem Splitsko-dalmatinske županije nije smeće. Veliki broj ljudi je nezainteresiran po pitanju odvajanja otpada, jer nisu dovoljno educirani da bi bili ekološki osviješteni. Ljudi nisu problem, nego rješenje!
+                    <br> <br>
+                    Pogledajte kako su Slovenci riješili taj problem <a href="https://www.tportal.hr/vijesti/clanak/slovenci-znaju-sa-smecem-bave-se-ljudima-ne-kantama-i-ide-im-odlicno-foto-20171122" target="_blank">ovdje</a>.
+                </div>
+                <img class="el slika-zag" src="../slike/ljubljana.png" alt="">
+            </div>
+        </div>
+
+        <div class="reciklaza container">
+            <div class="el" id="kante">
+                <div class="container">
+                    <div class="el box" id="papir">
+                    
+                    </div>
+                    <div class="el box" id="plastika">
+                    
+                    </div>
+                    <div class="el box" id=biootpad>
+                    
+                    </div>
+                    <div class="el box" id=mijesani>
+
+                    </div>
+                    <div class="el box" id=staklo>
+                    
+                    </div>
+                    <div class="el box" id=tekstil>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="odlagalista">
+            <div class="naslov-sekcije">Odlagališta</div>
+            <div class="container">
+                <div class="el">
+                    <div class="container sub" >
+                        <img class="el slika-odl" src="../slike/karepovac.jpg" alt="">
+                        <div class="el tekst-odl">KAREPOVAC<br>Prije 50 godina zamišljen je kao privremeno odlagalište otpada na gradskoj periferiji. Danas je Karepovac je postao stalno smetlište usred grada, jedino je legalno odlagalište na koje se  dovozi otpad iz većine gradova i općina Splitsko-dalmatinske županije. Svake godine pristigne oko 130 tisuća tona otpada.  Splitskom odlagalištu nekoliko puta je produžena dozvola za odlaganje otpada iako je odlagalište neadekvatno.</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <div class="container sub">
+                        <img class="el slika-odl" src="../slike/lecevica.jpeg" alt="">
+                        <div class="el tekst-odl">LEĆEVICA<br>
+                                Lokacija centra za gospodarenje otpadom Splitsko-dalmatinske županije planirana je otprilike 1 km sjeverozapadno od naselja Kladnjice u općini Lećevica. Planirani zahvat je udaljen više od 500 m od naseljenog područja gdje ljudi stalno borave, a obuhvaća površinu od 25 ha.
+                                Centar za gospodarenje otpadom u Splitsko-dalmatinskoj županiji sa svojim osnovnim dijelovima treba zadovoljiti potrebe obrade i odlaganja otpada Splitsko-dalmatinske županije na eološki prihvatljiv i ekonomski održiv način u razdoblju od 2020.-2044. godine.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Main>
+
+    <!-- Footer -->
+    <Footer>
+        <div class = "footer-links">
+            <ul>
+                <li id = "footer-links-title">Poveznice</li>
+                <li><a href="../index.html">Naslovna</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="rjesenje.html">Rješenje</a></li>
+                <li><a href="razvrstaj.html">Razvrstaj!</a></li>
+                <li><a href="o-timu.html">O timu</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-text">
+            &copy; ICT županija - EDIT 2019. <br>
+            Tim: Mia Vrdoljak i Duje Štolfa <br>
+            Sva prava pridržana.
+        </div>
+
+        <a href="https://www.ictzupanija.hr/" target="_blank"><img src="../slike/logo-footer.png" id="ict" alt="Logo-banner" width = "370px"></a>
+        <a href="http://www.trema.hr" target="_blank"><img src="../slike/logo.png" alt="Logo-banner" width = "331px"></a>
+    </Footer>
+
+    
+    </div>
+</body>
+</html>

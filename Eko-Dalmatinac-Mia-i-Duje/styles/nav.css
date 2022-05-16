@@ -1,0 +1,87 @@
+/* Body */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Navigation */
+
+.site-overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: -100%;
+    background: #272727;
+    opacity: 0.4;
+    transition: left 75ms ease-in-out;
+    z-index: 95;
+}
+
+Nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+}
+
+#logo-priv {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.menu {
+    width: 250px;
+    height: 100vh;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    transition: right 150ms ease-in-out;
+    box-shadow: -9px 0px 15px 0px rgba(0,0,0,0.15);
+}
+#menu-icon-white {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#menu-icon-black {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+#links {
+    padding: 0;
+    list-style-type: none;
+}
+#links li {
+    margin: 10px;
+    text-align: center;
+}
+#links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+#logo-menu {
+    position: relative;
+    top: 7%;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+}

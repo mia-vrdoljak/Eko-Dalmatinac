@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/nav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/rjesenje.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/footer.css" />
+    <style> #rjesenje {color: #4D61E5 !important;} </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../script.js"></script>
+    <title>Eko Dalmatinac</title>
+</head>
+<!-- Body -->
+<body>
+    <div class = "site-wrapper">
+    <div class = "site-overlay"> </div>
+
+    <!-- Navicija -->
+    <Nav>
+        <a href="../index.html">
+            <img src = "../slike/logo-final.png" id = "logo-priv" alt = "Logo">
+        </a>
+        <img src = "../slike/menu-icon-white.png" id = "menu-icon-white" alt = "Menu-icon">
+
+        <div class = "menu">
+            <img src = "../slike/menu-icon-black.png" id = "menu-icon-black" alt = "Menu-icon">
+            <img src = "../slike/logo-final.png" id = "logo-menu" alt = "Logo">
+
+            <ul id = "links">
+                <li><a id="naslovna" href="../index.html">Naslovna</a></li>
+                <li><a id="problem" href="problem.html">Problem</a></li>
+                <li><a id="rjesenje" href="rjesenje.html">Rješenje</a></li>
+                <li><a id="razvrstaj" href="razvrstaj.html">Razvrstaj!</a></li>
+                <li><a id="o-timu" href="o-timu.html">O timu</a></li>
+            </ul>
+        </div>
+    </Nav>
+
+    <!-- Header -->
+    <Header>
+        <div class = "header-overlay"></div>
+        <figure>
+            <div class = "slide1"> </div>
+    
+            <div class = "slide2">    
+                <div class = "slide-content">           
+                    <div class="naslov">Rješenje</div>
+                    <div class="podnaslov">#SortIT!</div>
+                </div> 
+            </div>
+        </figure>
+    </Header>
+
+    <!--Main-->
+    <Main>        
+        <!--Slo-hrv-->
+        <div class="slo-hrv">
+            <div class="container">
+                <div class="el">
+                    <div class="container sub box">
+                        <div class="el drzava">Hrvatska</div>
+                        <div class="el opis">
+                            Stanovnici: 4 407 000 <br>
+                            Otpad po stanovniku: 404 kg/g. <br>
+                            Komunalni otpad: 1 723 868 t/g. <br>
+                            Recikliranje: 14%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="el" id="vs">vs.</div>
+                
+                <div class="el">
+                    <div class="container sub box">
+                        <div class="el drzava">Slovenija</div>
+                        <div class="el opis">
+                            Stanovnici: 2 052 000 <br>
+                            Otpad po stanovniku: 414 kg/g. <br>
+                            Komunalni otpad: 852 075 t/g. <br>
+                            Recikliranje: 55%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Zupanija-->
+        <div class="zupanija">
+            <div class="naslov-sekcije">Splitsko-dalamatinska županija i otpad</div>
+            <div class="container">
+                <div class="el tekst-zup">Postojeći sustav gospodarenja otpadom u Splitsko-dalmatinskoj županiji još uvijek nije u potpunosti usklađen sa zakonskim odredbama.
+                Djelatnost prikupljanja otpada u Splitsko-dalmatinskoj županiji obavlja trideset komunalnih poduzeća.
+                Najveću količinu mješovitog komunalnog otpada u Splitsko-dalmatinskoj županiji u 2012. godini prikupila je Čistoća d.o.o. Split, 42%.
+                 Otpad se odlaže na 15 službenih odlagališta na području Splitsko-dalmatinske županije, dok se otpad općine Gradac prevozi na odlagalište Lovornik u Dubrovačko-neretvanskoj županiji.
+                Trenutno se biorazgradivi komunalni otpad ne sakuplja odvojeno.</div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d740910.3730577969!2d16.129504312915245!3d43.511103018130896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1335612655a56cd9%3A0x300ad50862bb520!2sSplitsko-dalmatinska+%C5%BEupanija!5e0!3m2!1shr!2shr!4v1557667740365!5m2!1shr!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!--SortIT!-->
+        <div class="sort">
+            <div class="naslov-sekcije">SortIT!</div>
+
+            <div class="container">
+                <img class="el slika-sort" id="1" src="../slike/sort.png" alt="">
+                <div class="el tekst-sort">Spremnik za recikliranje otpada sortit pomoću umjetne inteligencije i novih tehnologija razvrstava sve vrste otpada bez obzira na ljudski nemar. Razvili su ga Duje Štolfa i Antonio Nikolić, učenici III. gimnazije Split.</div>
+            </div>
+        </div>
+        
+        <!--Zero Waste trend-->
+        <div class="trend">
+            <div class="naslov-sekcije">Zero Waste trend</div>
+
+            <div class="container">
+                <div class="el tekst-sort">Zero waste trend novi je trend među ekolozima. Glavni cilj ovog trenda nije određivati kako gospodariti otpadom, nego spriječiti da on uopće nastane.<br>
+                    Na razini pojedinca, fokusira se na izbacivanje kupovanja proizvoda s ambalažom koja se ne može prenamijeniti, zatim potaknuti ponovnu upotrebu ili prenamjenu raznih nerazgradivih materijala ili proizvoda, potaknuti kompostiranje organskog smeća, kao i osvijestiti reciklažu općenito.<br>
+                    Na razini društva, zero waste trend želi potaknuti da se rekonstruira cjelokupni proizvodni i distribucijski sustav kako bi se smanjio otpad na globalnoj razini. Tako bi se i štitio okoliš i smanjivali troškovi zbrinjavanja otpada, ali i proizvodnje.<br>
+                    Više o tome pročitajte <a href="https://www.ekologija.com.hr/zero-waste-trend/" target="_blank">ovdje</a>. </div>
+            </div>
+            
+            <div class="container">
+        </div>
+        
+        <!--Videi-->
+        <div class="video container">
+            <div class="el" id="v1">
+                <iframe width="600" height="337.5" src="https://www.youtube.com/embed/6HBtl4sHTqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="el" id="v2">
+                <iframe width="600" height="337.5" src="https://www.youtube.com/embed/Yg1tEKILiR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </Main>
+
+    <!-- Footer -->
+    <Footer>
+        <div class = "footer-links">
+            <ul>
+                <li id = "footer-links-title">Poveznice</li>
+                <li><a href="../index.html">Naslovna</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="rjesenje.html">Rješenje</a></li>
+                <li><a href="razvrstaj.html">Razvrstaj!</a></li>
+                <li><a href="o-timu.html">O timu</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-text">
+            &copy; ICT županija - EDIT 2019. <br>
+            Tim: Mia Vrdoljak i Duje Štolfa <br>
+            Sva prava pridržana.
+        </div>
+        
+        <a href="https://www.ictzupanija.hr/" target="_blank"><img src="../slike/logo-footer.png" id="ict" alt="Logo-banner" width = "370px"></a>
+        <a href="http://www.trema.hr" target="_blank"><img src="../slike/logo.png" alt="Logo-banner" width = "331px"></a>
+    </Footer>
+
+    </div>
+</body>
+</html>
